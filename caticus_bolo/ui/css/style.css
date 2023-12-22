@@ -1,0 +1,139 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+}
+
+.caticus-bolo {
+  background-color: #00000e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.overlap-group-wrapper {
+  background-color: #00000e;
+  border: 1px solid;
+  border-color: #110079;
+  width: 931px;
+  height: 361px;
+}
+
+
+
+.hidden {
+	display: none;
+  }
+
+.overlap-group {
+  position: relative;
+  height: 362px;
+  top: -1px;
+}
+
+.DALLE {
+  position: absolute;
+  width: 931px;
+  height: 361px;
+  top: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  position: absolute;
+  width: 249px;
+  top: 0;
+  left: 380px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 96px;
+  white-space: nowrap;
+}
+
+.plateinsert {
+  position: absolute;
+  width: 693px;
+  height: 86px;
+  top: 112px;
+  left: 115px;
+  background-color: #01005094;
+  border-radius: 32px;
+  border: none; /* Optional: Removes the default input border */
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 24px; /* Increase font size */
+  color: #000; /* Text color */
+  text-align: center; /* Optional: Centers the text */
+  /* Additional styles (e.g., font family) can be added here */
+}
+
+/* ... Rest of your CSS ... */
+
+
+
+.deletebutton, .searchbutton, .addbolobutton {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
+  color: #fff;
+  line-height: 1.15;
+  font-size: 16px;
+  transition: all .1s ease; /* Added for hover effect */
+  width: 200px; /* Fixed width for all buttons */
+  text-align: center; /* Center the text inside the button */
+}
+
+.deletebutton:hover, .searchbutton:hover, .addbolobutton:hover {
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+.deletebutton {
+  top: 244px;
+  left: 649px;
+  background-color: #660000; /* Red background for delete button */
+}
+
+.searchbutton {
+  top: 244px;
+  left: 69px;
+  background-color: #00684e; /* Light blue background for search button */
+}
+
+.addbolobutton {
+  top: 244px;
+  left: 359px;
+  background-color: #006e00; /* Green background for add button */
+}
+
+
+
+
+
+
+.div, .text-wrapper-2, .text-wrapper-3, .plateinsert {
+  font-family: 'Roboto', sans-serif; /* Modern, clean, bold font */
+  font-weight: 700; /* Bold font weight */
+  color: #f7f7f7;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+  margin: 0; /* Reset any default margin */
+}
+
+
